@@ -1,0 +1,95 @@
+
+@font-face {
+    font-family:'poka' ;
+    src: url(pokanhontas.ttf);
+}
+@font-face {
+    font-family: 'duplet_light';
+    src: url(DupletRounded-LightItalic-BF66063459d52ce.otf);
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d0ac1e;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #5a2713;
+    color: hsl(259, 82%, 49%);
+    padding: 20px;
+    text-align: center;
+    border-radius:  0 10px 10px;
+    font-family: 'poka',sans-serif;
+    font-size: 200%
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 20px;
+    
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #564a15;
+    color: #f3ff10;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+}
+
+nav a:hover {
+    background-color: #e0782e;
+    
+    
+}
+
+.link-self {
+    background-color: #e0782e;
+    background: url(eatpepe.gif ) no-repeat center top;
+    
+}
+
+.link-coffee {
+    background-color: #e0782e; 
+    background: url(blue.png) no-repeat center top;
+}
+
+.link-music {
+    background-color: #e0782e; 
+    background: url(peach.png) no-repeat center top;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #d9ebef;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'duplet_light', sans-serif;
+    font-size: 200%;
+    
+}
+
+footer {
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+

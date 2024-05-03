@@ -1,0 +1,136 @@
+@font-face {
+  font-family:'poka' ;
+  src: url(pokanhontas.ttf);
+}
+@font-face {
+  font-family:'duplet_light';
+  src: url(DupletRounded-LightItalic-BF66063459d52ce.otf);
+}
+@font-face {
+    font-family: 'modeska';
+    src: url(modeska-trial-regular.ttf);
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(falls.jpg);
+    background-size: cover;
+  }
+  
+  header {
+    background-color: #37055b;
+    padding: 10px 0;
+    margin-bottom:10px;
+    font-family: modeska, sans-serif;
+    text-align: center;
+
+    
+  }
+    nav ul li a:hover {
+    background-color: #b700ff;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+nav ul li a {
+  color: #fff;
+  padding: 10px 10px;
+  transition: background-color 0.5s ease;
+  font-family: modeska, sans-serif;
+}
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #9a0bff;
+    text-align: center;
+}
+
+.navbar ul {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #37055b;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Align items horizontally in the center */
+}
+    
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color: #c716fc;
+    transition: background-color 0.5s ease;
+}
+
+.fab {
+    font-size: 24px;
+    margin: 0 5px;
+}
+.container {
+  max-width: 300px;
+  margin:auto;
+  background-color: #9616f2;
+  padding: 60px;
+  border-radius: 80px;
+  font-size: 150%;
+  max-height: 200px;
+  font-family:'duplet_light', sans-serif;
+  text-align:inherit;
+  border: 15px solid rgb(173, 15, 235);
+}
+
+footer {
+  background-color: #333333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+h1{
+margin-top: 10px;
+}
+.explore{
+  max-width: 300px;
+  margin:10px auto;
+  background-color: #9616f2;
+  padding: 20px;
+  border-radius: 80px;
+  font-size: 150%;
+  max-height: 200px;
+  border: 15px solid rgb(173, 15, 235);
+  text-align: center;
+  font-family:'modeska', sans-serif;
+
+
+}
